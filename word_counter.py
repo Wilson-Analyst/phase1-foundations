@@ -11,7 +11,10 @@ def read_file(file_path):
 # step 3: split text into words (ignore punctuation, lowcase everything)
 def count_words(text):
     # use regex to find words, ignore punctuation
+    stop_words =['the', 'and', 'is', 'in', 'to', 'of', 'a', 'that', 'it', 'with', 'as', 'for', 'was']
     words = re.findall(r'\b[a-z]+\b', text.lower())
+    # remove stop words
+    words = [word for word in words if word not in stop_words]
     return Counter(words)
 
 #step 4: get the top 10
@@ -22,7 +25,4 @@ def top_ten(counter):
 text = read_file("sample.txt")
 counts = count_words(text)
 results = top_ten(counts)
-
-print("Top 10 most common words:")
-for word, number in results:
-    print(f" {word}: {number} times")
+   
