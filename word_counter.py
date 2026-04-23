@@ -25,4 +25,8 @@ def top_ten(counter):
 text = read_file("sample.txt")
 counts = count_words(text)
 results = top_ten(counts)
-   
+
+#step 6: numbered list of top 10
+print("\nNumbered list of top 10 most common words:")
+for i, (word, number) in enumerate(results, start=1):
+    print(f"{i}. {word} → {number} times")
