@@ -1,0 +1,19 @@
+User Interface (UI) and User Experience (UX) design have emerged as critical determinants
+of competitive advantage in the rapidly evolving e-commerce landscape, directly influencing
+user engagement, satisfaction, and platform adoption rates. Despite extensive recognition of
+UI/UX importance, existing evaluation methodologies predominantly rely on descriptive statistical
+approaches such as Mean Opinion Score (MOS) calculations, which provide valuable insights into
+user perceptions but lack the inferential statistical rigor necessary to quantify relationships
+between specific design elements and overall satisfaction outcomes. To address this methodological
+ gap, the present study extends the baseline MOS framework by integrating Pearson correlation 
+analysis and multiple linear regression to quantify the associations between three UI/UX design 
+aspects (homepage design, navigation interface, and color theory) and overall user satisfaction,
+enabling identification of the most influential predictors while controlling for confounding
+effects. Analysis of data from four Indonesian e-commerce platforms (Shopee, Tokopedia, Blibli,
+and Lazada) revealed that homepage design demonstrated the strongest and only statistically 
+significant correlation with overall satisfaction (r = 0.9556, p = 0.0444), while the regression
+model explained 100 percent of variance with navigation interface emerging as the most influential
+predictor (β = 0.3362), thereby validating the original study's descriptive findings through 
+inferential statistics and demonstrating that advanced statistical methods can enhance 
+interpretability, establish predictive relationships, and provide actionable insights for UI/UX
+optimization in e-commerce contexts.
