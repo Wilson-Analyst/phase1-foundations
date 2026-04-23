@@ -1,0 +1,11 @@
+Numbered list of top 10 most common words:
+1. user → 5 times
+2. design → 5 times
+3. ui → 4 times
+4. ux → 4 times
+5. satisfaction → 4 times
+6. interface → 3 times
+7. e → 3 times
+8. commerce → 3 times
+9. statistical → 3 times
+10. overall → 3 times
